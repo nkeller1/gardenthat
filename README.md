@@ -60,7 +60,7 @@ Our Notification MicroService can be found [here](https://github.com/adumortier/
 To get a local copy up and running follow these simple steps.
 
 ### Installation
-START HERE
+
 1. Clone the repo
 ```sh
 git clone https://github.com/adumortier.git
