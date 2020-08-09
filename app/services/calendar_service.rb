@@ -1,5 +1,4 @@
 class CalendarService
-
   def self.post_events(user, title, description, date)
     response = conn.post('event/new?') do |req|
       req.params['token'] = user.google_token
@@ -49,7 +48,7 @@ class CalendarService
     end
   end
 
-  private 
+  private
 
   def self.conn
     Faraday.new 'https://notificationmicroservice.herokuapp.com'
