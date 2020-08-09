@@ -29,7 +29,7 @@ http_interactions:
       Server:
       - WEBrick/1.4.2 (Ruby/2.6.6/2020-03-31)
       Date:
-      - Thu, 16 Apr 2020 17:41:35 GMT
+      - Sun, 09 Aug 2020 15:42:01 GMT
       Via:
       - 1.1 vegur
     body:
@@ -77,5 +77,5 @@ http_interactions:
         into garden 50 cm spacings in rows. Two rows per 1m wide bed. Needs staking.","slug":"island-bay-tomato","created_at":"2020-04-16T16:24:39.621Z","updated_at":"2020-04-16T16:24:39.621Z"},{"id":242,"name":"tigerella
         tomato","image":null,"description":null,"slug":"tigerella-tomato","created_at":"2020-04-16T16:24:40.260Z","updated_at":"2020-04-16T16:24:40.260Z"}]'
     http_version: null
-  recorded_at: Thu, 16 Apr 2020 17:41:35 GMT
+  recorded_at: Sun, 09 Aug 2020 15:42:00 GMT
 recorded_with: VCR 5.1.0

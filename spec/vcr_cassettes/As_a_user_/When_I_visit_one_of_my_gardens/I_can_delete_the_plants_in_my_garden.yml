@@ -29,7 +29,7 @@ http_interactions:
       Server:
       - WEBrick/1.4.2 (Ruby/2.6.6/2020-03-31)
       Date:
-      - Fri, 17 Apr 2020 00:58:23 GMT
+      - Sun, 09 Aug 2020 15:41:51 GMT
       Via:
       - 1.1 vegur
     body:
@@ -77,7 +77,7 @@ http_interactions:
         into garden 50 cm spacings in rows. Two rows per 1m wide bed. Needs staking.","slug":"island-bay-tomato","created_at":"2020-04-16T16:24:39.621Z","updated_at":"2020-04-16T16:24:39.621Z"},{"id":242,"name":"tigerella
         tomato","image":null,"description":null,"slug":"tigerella-tomato","created_at":"2020-04-16T16:24:40.260Z","updated_at":"2020-04-16T16:24:40.260Z"}]'
     http_version: null
-  recorded_at: Fri, 17 Apr 2020 00:58:20 GMT
+  recorded_at: Sun, 09 Aug 2020 15:41:50 GMT
 - request:
     method: get
     uri: https://plantmicroservice.herokuapp.com/plant/tomato
@@ -107,12 +107,12 @@ http_interactions:
       Server:
       - WEBrick/1.4.2 (Ruby/2.6.6/2020-03-31)
       Date:
-      - Fri, 17 Apr 2020 00:58:24 GMT
+      - Sun, 09 Aug 2020 15:41:53 GMT
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"name":"tomato","perennial":false,"first_harvest":88,"last_harvest":110,"description":"The
+      string: '{"name":"tomato","perennial":false,"first_harvest":90,"last_harvest":115,"description":"The
         tomato is the fruit of the tomato plant, a member of the Nightshade family
         (Solanaceae). The fruit grows on a sprawling vine that is often trellised
         or caged to keep it upright. There are many kinds of tomatoes, including conventional,
@@ -122,7 +122,7 @@ http_interactions:
         or staked.","sun":"Full Sun","image":"https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5dc3618ef2c1020004f936e4.jpg?1573085580","height":90,"spread":60,"sowing":"Direct
         seed indoors, transplant seedlings outside after hardening off","spacing":75}'
     http_version: null
-  recorded_at: Fri, 17 Apr 2020 00:58:21 GMT
+  recorded_at: Sun, 09 Aug 2020 15:41:52 GMT
 - request:
     method: get
     uri: https://plantmicroservice.herokuapp.com/api/carrot
@@ -152,7 +152,7 @@ http_interactions:
       Server:
       - WEBrick/1.4.2 (Ruby/2.6.6/2020-03-31)
       Date:
-      - Fri, 17 Apr 2020 00:58:24 GMT
+      - Sun, 09 Aug 2020 15:41:54 GMT
       Via:
       - 1.1 vegur
     body:
@@ -191,10 +191,10 @@ http_interactions:
         Instructions: Sow seeds fairly thickly, in successive sowings during spring,
         summer and early autumn in warm areas.","slug":"carrot-juwarot","created_at":"2020-04-16T16:24:45.129Z","updated_at":"2020-04-16T16:24:45.129Z"}]'
     http_version: null
-  recorded_at: Fri, 17 Apr 2020 00:58:21 GMT
+  recorded_at: Sun, 09 Aug 2020 15:41:53 GMT
 - request:
     method: post
-    uri: https://notificationmicroservice.herokuapp.com/event/new?calendar_id=5n59q0ueh4202i4mlstfbqejgc@group.calendar.google.com&date=2020-07-14&description=It%27s%20time%20to%20harvest%20your%20tomato%20in%20Garden%201&name=Tomato%20harvest%20time!&refresh_token=1//04-pZhdbjX-F2CgYIARAAGAQSNwF-L9IrmJCHmMdtJ-4XrzvIBNyg8gNQNuYAEhMz-a_NImQ7FdjOIXCChZpDyKeZL0I8JxrpruE&token=ya29.a0Ae4lvC1Adi34MYE7q9MIO-gR8gFyPQ67iEcykuaqUNq-RB2uFv1IcFCJqVwEeTRhaWP_KpCUjQu1OXOnY28I3r5iTk_CLS132WgS9VoAr7IO0jSnil-P5gf7RGnD-u04rFaBcNvosxGR3goBZJF2dZ1N7qLIzFc0xsQ
+    uri: https://notificationmicroservice.herokuapp.com/event/new?calendar_id=5n59q0ueh4202i4mlstfbqejgc@group.calendar.google.com&date=2020-11-07&description=It%27s%20time%20to%20harvest%20your%20tomato%20in%20Garden%201&name=Tomato%20harvest%20time!&refresh_token=1//04-pZhdbjX-F2CgYIARAAGAQSNwF-L9IrmJCHmMdtJ-4XrzvIBNyg8gNQNuYAEhMz-a_NImQ7FdjOIXCChZpDyKeZL0I8JxrpruE&token=ya29.a0Ae4lvC1Adi34MYE7q9MIO-gR8gFyPQ67iEcykuaqUNq-RB2uFv1IcFCJqVwEeTRhaWP_KpCUjQu1OXOnY28I3r5iTk_CLS132WgS9VoAr7IO0jSnil-P5gf7RGnD-u04rFaBcNvosxGR3goBZJF2dZ1N7qLIzFc0xsQ
     body:
       encoding: UTF-8
       string: ''
@@ -223,15 +223,15 @@ http_interactions:
       Server:
       - WEBrick/1.4.2 (Ruby/2.6.6/2020-03-31)
       Date:
-      - Fri, 17 Apr 2020 00:58:24 GMT
+      - Sun, 09 Aug 2020 15:41:54 GMT
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
       string: '{"summary":"Tomato harvest time!","description":"It''s time to harvest
-        your tomato in Garden 1","id":"gh3at8d3rv30gqbru7e6pies1g"}'
+        your tomato in Garden 1","id":"lrbb019q1ipfh3kc9s1ai22th4"}'
     http_version: null
-  recorded_at: Fri, 17 Apr 2020 00:58:21 GMT
+  recorded_at: Sun, 09 Aug 2020 15:41:53 GMT
 - request:
     method: get
     uri: https://plantmicroservice.herokuapp.com/plant/carrot
@@ -261,12 +261,12 @@ http_interactions:
       Server:
       - WEBrick/1.4.2 (Ruby/2.6.6/2020-03-31)
       Date:
-      - Fri, 17 Apr 2020 00:58:25 GMT
+      - Sun, 09 Aug 2020 15:41:55 GMT
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"name":"carrot","perennial":false,"first_harvest":102,"last_harvest":159,"description":"The
+      string: '{"name":"carrot","perennial":false,"first_harvest":105,"last_harvest":150,"description":"The
         carrot is a root vegetable. It is usually orange in color, but some cultivars
         are purple, black, red, white, and yellow. The most commonly eaten part of
         the plant is the taproot, but the greens are sometimes eaten as well. The
@@ -275,10 +275,10 @@ http_interactions:
         are harvested four months after sowing.","sun":"Full Sun","image":"https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/58c312395865650004000000.jpg?1489179191","height":10,"spread":5,"sowing":"Direct
         Seed, thin to 3cm apart when seedlings are 8cm high","spacing":5}'
     http_version: null
-  recorded_at: Fri, 17 Apr 2020 00:58:22 GMT
+  recorded_at: Sun, 09 Aug 2020 15:41:54 GMT
 - request:
     method: post
-    uri: https://notificationmicroservice.herokuapp.com/event/new?calendar_id=5n59q0ueh4202i4mlstfbqejgc@group.calendar.google.com&date=2020-07-28&description=It%27s%20time%20to%20harvest%20your%20carrot%20in%20Garden%201&name=Carrot%20harvest%20time!&refresh_token=1//04-pZhdbjX-F2CgYIARAAGAQSNwF-L9IrmJCHmMdtJ-4XrzvIBNyg8gNQNuYAEhMz-a_NImQ7FdjOIXCChZpDyKeZL0I8JxrpruE&token=ya29.a0Ae4lvC1Adi34MYE7q9MIO-gR8gFyPQ67iEcykuaqUNq-RB2uFv1IcFCJqVwEeTRhaWP_KpCUjQu1OXOnY28I3r5iTk_CLS132WgS9VoAr7IO0jSnil-P5gf7RGnD-u04rFaBcNvosxGR3goBZJF2dZ1N7qLIzFc0xsQ
+    uri: https://notificationmicroservice.herokuapp.com/event/new?calendar_id=5n59q0ueh4202i4mlstfbqejgc@group.calendar.google.com&date=2020-11-22&description=It%27s%20time%20to%20harvest%20your%20carrot%20in%20Garden%201&name=Carrot%20harvest%20time!&refresh_token=1//04-pZhdbjX-F2CgYIARAAGAQSNwF-L9IrmJCHmMdtJ-4XrzvIBNyg8gNQNuYAEhMz-a_NImQ7FdjOIXCChZpDyKeZL0I8JxrpruE&token=ya29.a0Ae4lvC1Adi34MYE7q9MIO-gR8gFyPQ67iEcykuaqUNq-RB2uFv1IcFCJqVwEeTRhaWP_KpCUjQu1OXOnY28I3r5iTk_CLS132WgS9VoAr7IO0jSnil-P5gf7RGnD-u04rFaBcNvosxGR3goBZJF2dZ1N7qLIzFc0xsQ
     body:
       encoding: UTF-8
       string: ''
@@ -307,15 +307,15 @@ http_interactions:
       Server:
       - WEBrick/1.4.2 (Ruby/2.6.6/2020-03-31)
       Date:
-      - Fri, 17 Apr 2020 00:58:25 GMT
+      - Sun, 09 Aug 2020 15:41:55 GMT
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
       string: '{"summary":"Carrot harvest time!","description":"It''s time to harvest
-        your carrot in Garden 1","id":"gqq3bno4tbnmk3uie0lsgf1eko"}'
+        your carrot in Garden 1","id":"an1npveopo28cceq2laapktos4"}'
     http_version: null
-  recorded_at: Fri, 17 Apr 2020 00:58:22 GMT
+  recorded_at: Sun, 09 Aug 2020 15:41:55 GMT
 - request:
     method: get
     uri: https://notificationmicroservice.herokuapp.com/events/info?calendar_name=GardenThatApp&refresh_token=1//04-pZhdbjX-F2CgYIARAAGAQSNwF-L9IrmJCHmMdtJ-4XrzvIBNyg8gNQNuYAEhMz-a_NImQ7FdjOIXCChZpDyKeZL0I8JxrpruE&token=ya29.a0Ae4lvC1Adi34MYE7q9MIO-gR8gFyPQ67iEcykuaqUNq-RB2uFv1IcFCJqVwEeTRhaWP_KpCUjQu1OXOnY28I3r5iTk_CLS132WgS9VoAr7IO0jSnil-P5gf7RGnD-u04rFaBcNvosxGR3goBZJF2dZ1N7qLIzFc0xsQ
@@ -339,64 +339,20 @@ http_interactions:
       Content-Type:
       - application/json
       Content-Length:
-      - '395'
+      - '2'
       X-Content-Type-Options:
       - nosniff
       Server:
       - WEBrick/1.4.2 (Ruby/2.6.6/2020-03-31)
       Date:
-      - Fri, 17 Apr 2020 00:58:26 GMT
+      - Sun, 09 Aug 2020 15:41:56 GMT
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '[{"name":"Tomato harvest time!","description":"It''s time to harvest
-        your tomato in Garden 1","start":"2020-07-14T16:00:00+00:00","end":"2020-07-15T00:00:00+00:00","id":"gh3at8d3rv30gqbru7e6pies1g"},{"name":"Carrot
-        harvest time!","description":"It''s time to harvest your carrot in Garden
-        1","start":"2020-07-28T16:00:00+00:00","end":"2020-07-29T00:00:00+00:00","id":"gqq3bno4tbnmk3uie0lsgf1eko"}]'
+      string: "[]"
     http_version: null
-  recorded_at: Fri, 17 Apr 2020 00:58:23 GMT
-- request:
-    method: delete
-    uri: https://notificationmicroservice.herokuapp.com/event/info?calendar_id=5n59q0ueh4202i4mlstfbqejgc@group.calendar.google.com&event_id=gh3at8d3rv30gqbru7e6pies1g&refresh_token=1//04-pZhdbjX-F2CgYIARAAGAQSNwF-L9IrmJCHmMdtJ-4XrzvIBNyg8gNQNuYAEhMz-a_NImQ7FdjOIXCChZpDyKeZL0I8JxrpruE&token=ya29.a0Ae4lvC1Adi34MYE7q9MIO-gR8gFyPQ67iEcykuaqUNq-RB2uFv1IcFCJqVwEeTRhaWP_KpCUjQu1OXOnY28I3r5iTk_CLS132WgS9VoAr7IO0jSnil-P5gf7RGnD-u04rFaBcNvosxGR3goBZJF2dZ1N7qLIzFc0xsQ
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.17.3
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: 'OK '
-    headers:
-      Connection:
-      - keep-alive
-      Content-Type:
-      - text/html;charset=utf-8
-      Content-Length:
-      - '0'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - SAMEORIGIN
-      Server:
-      - WEBrick/1.4.2 (Ruby/2.6.6/2020-03-31)
-      Date:
-      - Fri, 17 Apr 2020 00:58:41 GMT
-      Via:
-      - 1.1 vegur
-    body:
-      encoding: UTF-8
-      string: ''
-    http_version: null
-  recorded_at: Fri, 17 Apr 2020 00:58:38 GMT
+  recorded_at: Sun, 09 Aug 2020 15:41:55 GMT
 - request:
     method: get
     uri: https://notificationmicroservice.herokuapp.com/events/info?calendar_name=GardenThatApp&refresh_token=1//04-pZhdbjX-F2CgYIARAAGAQSNwF-L9IrmJCHmMdtJ-4XrzvIBNyg8gNQNuYAEhMz-a_NImQ7FdjOIXCChZpDyKeZL0I8JxrpruE&token=ya29.a0Ae4lvC1Adi34MYE7q9MIO-gR8gFyPQ67iEcykuaqUNq-RB2uFv1IcFCJqVwEeTRhaWP_KpCUjQu1OXOnY28I3r5iTk_CLS132WgS9VoAr7IO0jSnil-P5gf7RGnD-u04rFaBcNvosxGR3goBZJF2dZ1N7qLIzFc0xsQ
@@ -420,60 +376,18 @@ http_interactions:
       Content-Type:
       - application/json
       Content-Length:
-      - '198'
+      - '2'
       X-Content-Type-Options:
       - nosniff
       Server:
       - WEBrick/1.4.2 (Ruby/2.6.6/2020-03-31)
       Date:
-      - Fri, 17 Apr 2020 00:58:41 GMT
+      - Sun, 09 Aug 2020 15:41:57 GMT
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '[{"name":"Carrot harvest time!","description":"It''s time to harvest
-        your carrot in Garden 1","start":"2020-07-28T16:00:00+00:00","end":"2020-07-29T00:00:00+00:00","id":"gqq3bno4tbnmk3uie0lsgf1eko"}]'
+      string: "[]"
     http_version: null
-  recorded_at: Fri, 17 Apr 2020 00:58:38 GMT
-- request:
-    method: delete
-    uri: https://notificationmicroservice.herokuapp.com/event/info?calendar_id=5n59q0ueh4202i4mlstfbqejgc@group.calendar.google.com&event_id=gqq3bno4tbnmk3uie0lsgf1eko&refresh_token=1//04-pZhdbjX-F2CgYIARAAGAQSNwF-L9IrmJCHmMdtJ-4XrzvIBNyg8gNQNuYAEhMz-a_NImQ7FdjOIXCChZpDyKeZL0I8JxrpruE&token=ya29.a0Ae4lvC1Adi34MYE7q9MIO-gR8gFyPQ67iEcykuaqUNq-RB2uFv1IcFCJqVwEeTRhaWP_KpCUjQu1OXOnY28I3r5iTk_CLS132WgS9VoAr7IO0jSnil-P5gf7RGnD-u04rFaBcNvosxGR3goBZJF2dZ1N7qLIzFc0xsQ
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.17.3
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: 'OK '
-    headers:
-      Connection:
-      - keep-alive
-      Content-Type:
-      - text/html;charset=utf-8
-      Content-Length:
-      - '0'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - SAMEORIGIN
-      Server:
-      - WEBrick/1.4.2 (Ruby/2.6.6/2020-03-31)
-      Date:
-      - Fri, 17 Apr 2020 00:58:42 GMT
-      Via:
-      - 1.1 vegur
-    body:
-      encoding: UTF-8
-      string: ''
-    http_version: null
-  recorded_at: Fri, 17 Apr 2020 00:58:39 GMT
+  recorded_at: Sun, 09 Aug 2020 15:41:56 GMT
 recorded_with: VCR 5.1.0
