@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class User < ApplicationRecord
   has_many :gardens, dependent: :destroy
   has_many :garden_plants, through: :gardens
