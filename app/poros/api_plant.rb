@@ -1,5 +1,4 @@
 class ApiPlant
-
   attr_reader :name,
               :perennial,
               :first_harvest,

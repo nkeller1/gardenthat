@@ -1,7 +1,6 @@
 class ProfilesController < ApplicationController
 
-  def new
-  end
+  def new; end
 
   def show
     if current_user.nil?

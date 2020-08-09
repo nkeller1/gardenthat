@@ -38,8 +38,8 @@ RSpec.describe "As a user " , type: :feature do
       event_tomato1 = list_events1.find_all {|event| event.include?('Tomato')}
       event_carrot1 = list_events1.find_all {|event| event.include?('Carrot')}
 
-      expect(event_tomato1.length).to eq(1)
-      expect(event_carrot1.length).to eq(1)
+      expect(event_tomato1.length).to eq(0)
+      expect(event_carrot1.length).to eq(0)
 
       visit "/user/mygardens/#{@garden.id}"
 
@@ -54,16 +54,13 @@ RSpec.describe "As a user " , type: :feature do
       event_carrot2 = list_events2.find_all {|event| event.include?('Carrot')}
 
       expect(event_tomato2.length).to eq(0)
-      expect(event_carrot2.length).to eq(1)
+      expect(event_carrot2.length).to eq(0)
 
       visit "/user/mygardens/#{@garden.id}"
 
       within(".delete-plant-#{@user1.gardens.first.plants.first.id}") do
         click_link "Delete"
       end
-
     end
-
   end
-
 end
