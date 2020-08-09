@@ -61,9 +61,6 @@ RSpec.describe "As a user " , type: :feature do
       within(".delete-plant-#{@user1.gardens.first.plants.first.id}") do
         click_link "Delete"
       end
-
     end
-
   end
-
 end
